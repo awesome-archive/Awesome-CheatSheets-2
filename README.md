@@ -1,46 +1,40 @@
-![awesome coder](https://user-images.githubusercontent.com/5803001/43364904-59f5bda6-9356-11e8-9ab3-ae073d08bb9e.png)
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![license: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)][license-url]
 
-[中文版本](./README.md) | [English Version](./README.en.md)
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/wx-chevalier/Awesome-CheatSheets">
+    <img src="https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/header.svg" alt="Logo" style="width: 100vw;height: 400px" />
+  </a>
+
+  <p align="center">
+    <a href="https://ng-tech.icu/books/Awesome-CheatSheets"><strong>在线阅读 >> </strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/wx-chevalier">代码实践</a>
+    ·
+       <a href="https://github.com/wx-chevalier/Awesome-Lists">参考资料</a>
+
+  </p>
+</p>
+
+<!-- ABOUT THE PROJECT -->
 
 # [Awesome CheatSheet: 语法速览，实践备忘，从零到一，上手即用 🚀](https://github.com/wx-chevalier/Awesome-CheatSheets)
 
-`Copyright © 王下邀月熊`
+[Awesome CheatSheet](https://github.com/wx-chevalier/Awesome-CheatSheets) 是对某项技术/领域的语法速览与实践备忘清单集锦。它包含了 JavaScript，Java，Go，Python，Rust 等常见的编程语言，Web，数据库，信息安全等 [ITCS 知识图谱与技术路线](https://ng-tech.icu/books/home/#/perspective)中归档的知识技能点，其致力于提升学习速度与研发效能，即可以将其当做速查手册，也可以作为轻量级的入门学习资料。
 
-[Awesome CheatSheet](https://github.com/wx-chevalier/Awesome-CheatSheets) 是对某项技术/领域的语法速览与实践备忘清单集锦。它包含了 JavaScript，Java，Go，Python，Rust 等常见的编程语言，Web，数据库，信息安全等 [ITCS 知识图谱与技术路线](https://wx-chevalier.github.io/home/#/perspective)中归档的知识技能点，其致力于提升学习速度与研发效能，即可以将其当做速查手册，也可以作为轻量级的入门学习资料。
-
-[![default](https://i.postimg.cc/y1QXgJ6f/image.png)](https://github.com/wx-chevalier)
+![知识脉络](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230416202635.png)
 
 需要注意的是，Awesome CheatSheets 中很多的文章仅有目录而无内容，这并不意味着这些文章是空白的，而是作者尚未将[具体的文档仓库](https://github.com/topics/wx-doc)中的相关主题下内容整合进来，您可以前往[感兴趣的分类仓库](https://github.com/topics/wx-doc)再行浏览。
 
-# Nav | 导航
+![awesome coder](https://user-images.githubusercontent.com/5803001/43364904-59f5bda6-9356-11e8-9ab3-ae073d08bb9e.png)
 
-建议前往 [xCompass](https://wx-chevalier.github.io/home/#/search) 交互式地检索、查找需要的文章/链接/书籍/课程，或者直接浏览本仓库的目录以了解更多内容，也可以使用 [alfred-sg](https://github.com/wx-chevalier/Soogle/tree/master/alfred-sg) 在 MAC 设备上进行快速检索。
-
-- 如果希望实践掌握 **Web 开发**，可以阅读 [JavaScript CheatSheet](https://parg.co/rdm)/[ProgrammingLanguage-Series/JavaScript](https://github.com/wx-chevalier/ProgrammingLanguage-Series/tree/master/JavaScript)，[DOM CheatSheet](https://parg.co/rdG)/[CSS CheatSheet](https://parg.co/rdo)，[React CheatSheet](https://parg.co/rdA)/[Vue CheatSheet](https://parg.co/rdd)，[现代 Web 开发基础与工程实践](https://github.com/wx-chevalier/Web-Series)/[Web Tuning CheatSheet](https://parg.co/rd0) 等。
-
-- Java 微服务开发
-
-- 如果希望深入浅出 **分布式系统，分布式计算，分布式存储，数据库，操作系统，虚拟化** 等内容，可以参阅 [深入浅出分布式基础架构](https://github.com/wx-chevalier/Distributed-Infrastructure-Series)， [DistributedSystem CheatSheet](./Infrastructure/DistributedSystem/DistributedSystem-CheatSheet.md), [Database CheatSheet](./Infrastructure/Database/Database-CheatSheet.md), [Linux CheatSheet](./Infrastructure/OS/Linux/Linux-Commands-CheatSheet.md), [MySQL CheatSheet](./Infrastructure/Database/RDB/MySQL/MySQL-Cheatsheet.md), [Docker CheatSheet](./Infrastructure/Virtualization/Docker-Cheatsheet.md), [Flink CheatSheet](./Infrastructure/DistributedComputing/Streaming/Flink-CheatSheet.md), [Kafka CheatSheet](./Infrastructure/DistributedComputing/MOM/Kafka-CheatSheet.md) 等。
-
-- DevOps
-
-- 人工智能与深度学习基础
-
-# Preface | 前言
-
-`让知识在该在的地方 @ 王下邀月熊`
-
-笔记系统，或者说知识管理的首个难点，在于知识的检索，与更新；直观地来说，就是当我们想到某个知识时，应该如何去找到对应的笔记，或者说当我们想去记录某些心得体会时，应该把它们放在什么地方。一般来说，目前的笔记组织结构，可以是树形层级目录式，就像思维脑图一样，从某个点展开，延伸到各个具体的技术领域；也可以是 Tag 式，即为每个笔记进行人工地主题词提取，然后依赖于搜索功能进行检索。笔者上车伊始，即主张：知识应该放在它应该在的地方，因此数年来一直以近乎强迫的方式，去构建 [ITCS 技术体系与知识图谱](https://github.com/wx-chevalier/Awesome-Coder/blob/master/MindMap/README.md)，并且将其作为泛笔记系统的目录规范。这种细致的划分方式，往往会随着自身对于技术世界的认知变化而不断衍化，因此也是建立在广泛的阅读、涉猎的基础上；不过磨刀不误砍材工，若能坚持下来，浇灌培育出属于自己的知识体系树，也是别有一番滋味在心头。
-
-有了遨游星海的星图指引，我们就要开始逐个探索美丽的知识星球了。根据知识本身的特点，使用的频次，检索与更新的方式，我们又可以将笔记分为索引式、清单式、书籍式与代码式；下面我会结合自身的实践认知，来阐述这几个不同类型的笔记的构建与使用。
-
-- 索引式笔记，典型的代表是 [Awesome Lists](https://github.com/wx-chevalier/Awesome-Lists)，其按照知识图谱来将各个领域的有效的链接沉淀下来。与 Google 这样搜索引擎搜出的结果相比，其含金量会更高。一方面，纳入到 AwesomeList 当中的链接，往往都是自身阅读、筛选过的，尽可能去芜存菁，去重留一，无论是分享某个技术领域的文章给他人，还是自己学习阅读，都能够避免冗余阅读。另一方面，很多优秀的文章并不一定会出现在搜索引擎的前几页，而是需要依靠自己日常浏览中主动发现、归纳。[Awesome Links](https://github.com/wx-chevalier/Awesome-Lists) 中还包含了很重要的一个部分，\*-OpenSource-List，是对于各个领域的常见开源项目的归档；即可以方便快速查找所需的框架与库、开发工具等，也能够提供一些优秀的，可以借鉴的开源项目来学习。
-
-- 清单式笔记，典型的代表是 [Awesome CheatSheet](https://github.com/wx-chevalier/Awesome-CheatSheets)，即是对于某个领域、方向的精华，以及日常工作中常用知识点的归档。无论是快速学习，还是作为日常开发中的工具手册，都是极好的。
-
-- 书籍式笔记，即可以是 [Awesome-CS-Books-Warehouse](https://github.com/wx-chevalier/Awesome-CS-Books-Warehouse) 这样对于优秀书籍的搜集，也可以是 [现代 Web 开发](https://github.com/wx-chevalier/Web-Series)，[深入浅出分布式基础架构](https://github.com/wx-chevalier/Distributed-Infrastructure-Series) 等这样子各个领域的自己的笔记的编排。值得一提的是，书籍式笔记，并不强调一定要遵循知识图谱的结构，而是赋予其一定灵活性，以方便记录与交流。
-
-- 代码式笔记，典型的代表是 [coding-snippets](https://github.com/wx-chevalier/coding-snippets), 对于程序员这个角色而言，代码也是我们笔记系统的重要组成。在这个之上，我们又可以构建出一系列小的项目。
+# Nav | 关联导航
 
 对于每个领域，Awesome CheatSheet 可能包含了以下主题的文件：
 
@@ -54,7 +48,13 @@
 
 ## 参考
 
-- [2018-Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets): Useful cheatsheets with everything you should know in one single-file. 🚀
+- [2018_Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets): Useful cheatsheets with everything you should know in one single-file. 🚀
+
+- [Psyduck ![code](https://ng-tech.icu/assets/code.svg)](https://github.com/SmartKeyerror/Psyduck): Record CS knowlegement with XMind, version 2.0. 使用 XMind 记录 Linux 操作系统，网络，C++，Golang 以及数据库的一些设计
+
+- [Apply best practices via CheatSheets](https://github.com/dennyzhang/cheatsheet.dennyzhang.com): See more cheatsheets from Denny: #denny-cheatsheets
+
+- [2022_Reference ![code](https://ng-tech.icu/assets/code.svg)](https://github.com/jaywcjlove/reference): 为开发人员分享快速参考备忘清单【速查表】。
 
 ## 版权
 
@@ -62,4 +62,26 @@
 
 笔者所有文章遵循 [知识共享 署名 - 非商业性使用 - 禁止演绎 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh)，欢迎转载，尊重版权。如果觉得本系列对你有所帮助，欢迎给我家布丁买点狗粮(支付宝扫码)~
 
-![](https://github.com/wx-chevalier/OSS/blob/master/2017/8/1/Buding.jpg?raw=true)
+[](https://github.com/wx-chevalier)
+
+## Copyright & More | 延伸阅读
+
+[![技术视野](https://s3.ax1x.com/2021/02/21/yTSKdH.png)](https://github.com/wx-chevalier/Awesome-MindMaps)
+
+您还可以前往 [NGTE Books](https://ng-tech.icu/books-gallery/) 主页浏览包含知识体系、编程语言、软件工程、模式与架构、Web 与大前端、服务端开发实践与工程架构、分布式基础架构、人工智能与深度学习、产品运营与创业等多类目的书籍列表：
+
+[![NGTE Books](https://s2.ax1x.com/2020/01/18/19uXtI.png)](https://ng-tech.icu/books-gallery/)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/wx-chevalier/Awesome-CheatSheets.svg?style=flat-square
+[contributors-url]: https://github.com/wx-chevalier/Awesome-CheatSheets/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/wx-chevalier/Awesome-CheatSheets.svg?style=flat-square
+[forks-url]: https://github.com/wx-chevalier/Awesome-CheatSheets/network/members
+[stars-shield]: https://img.shields.io/github/stars/wx-chevalier/Awesome-CheatSheets.svg?style=flat-square
+[stars-url]: https://github.com/wx-chevalier/Awesome-CheatSheets/stargazers
+[issues-shield]: https://img.shields.io/github/issues/wx-chevalier/Awesome-CheatSheets.svg?style=flat-square
+[issues-url]: https://github.com/wx-chevalier/Awesome-CheatSheets/issues
+[license-shield]: https://img.shields.io/github/license/wx-chevalier/Awesome-CheatSheets.svg?style=flat-square
+[license-url]: https://github.com/wx-chevalier/Awesome-CheatSheets/blob/master/LICENSE.txt
